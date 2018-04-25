@@ -54,3 +54,6 @@ To extend PDFuzz by a new category of target websites the following steps are ne
  * Create the necessary database tables(required tables: `search_parameters_<key>` and `pdfuzz_results_<key>`) for your purpose by appending the queries to the file prepare_storage.sql which is located in pdfuzz/config/db_setup/.
  * Go to pdfuzz/core/db_connection.py and insert the necessary code to handle your new type of website in the functions 'get_search_parameters_id', 'store_search_parameters' and 'write_results'.
  * Now you can write NavScrapers for the target websites under your conditions.
+ 
+ ## Contact
+ nicolai DOT wilkop AT rub DOT de
