@@ -1,0 +1,8 @@
+*.pyc
+logs/*.log
+!logs/.gitkeep
+errors/*
+!errors/.gitkeep
+debug/*
+!debug/.gitkeep
+*.png
